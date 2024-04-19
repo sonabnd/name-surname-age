@@ -4,11 +4,10 @@ let userYear=prompt("Cari teqvim ilini daxil edin");
 let userDate=prompt("Tevellüdünüzü daxil edin");
 
 
-function person(name,surname){
+function person(name ,surname){
     console.log(name + "   " + surname + "   " + date(userYear , userDate) + "yaş");
-    date(userYear, userDate);
 }
 function date(x,y){
-    return userYear - userDate;
+    return x - y;
 }
 person(userName, userSurname);
